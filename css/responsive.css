@@ -128,10 +128,16 @@
     
   .main{
     background-image: linear-gradient(to left, #ffffff 65%, #c2f6ef 35%);
-    height: 1120px;
+    height: 1220px;
   }
   .main .textside{
     padding-bottom: 15px;
+  }
+  .about{
+    height: 1250px;
+  }
+  .education{
+    height: 1900px;
   }
   .skills-content{
     height: 850px;
@@ -139,33 +145,52 @@
   }
   }
 
-  @media only screen and (max-width: 540px){
+
+  @media only screen and (max-width: 520px){
+
     
     .main{
+      height: 1190px;
       background-image: linear-gradient(to left, #ffffff 65%, #c2f6ef 35%);
-      height: 920px;
+    }
+
+    .about{
+      height:1380px;
     }
     .main .textside{
       padding-bottom: 15px;
     }
-    .skills-content{
-      height: 900px;
-      background-image: linear-gradient(to right, #ffffff 65%, #c2f6ef 35%);
+
+
+    .education{
+      height:2100px;
     }
-    }
-  
+
+ .skills{
+  height: 1150px;
+}
+.skills-content{
+flex-direction: column;
+height: 1000px;
+}
+    
+}
+        
+
+
+
   @media only screen and (max-width: 460px){ 
 
     .main{
-      height: 920px;
+      height: 1250px;
       background-image: linear-gradient(to left, #ffffff 65%, #c2f6ef 35%);
         }
       .about{
-        height:1250;
+        height:1450;
       }
 
       .education{
-        height:1920px;
+        height:210px;
       }
       .main .textside{
             padding-left: 20px;
@@ -219,18 +244,18 @@
 
     /* ------------------------------------------------------- */
 
-    @media only screen and (max-width:400px){
+    @media only screen and (max-width:425px){
 
      .main{
-        height: 1200px;
+        height: 950px;
         background-image: linear-gradient(to left, #ffffff 65%, #c2f6ef 35%);
           }
-        .about{
-          height:1550;
+      .about{
+          height:1050px;
         }
   
         .education{
-          height:3000px;
+          height:2380px;
         }
         .main .textside{
               padding-left: 20px;
@@ -264,11 +289,11 @@
         }
   
           .skills{
-              height: 1350px;
+              height: 1120px;
           }
           .skills-content{
             flex-direction: column;
-            height: 1250px;
+            height: 1050px;
           }
           .skills .skills-content .right .text{
             font-size: 22px;
@@ -281,13 +306,20 @@
 
 
    
-    @media only screen and (max-width:340px){ 
+    @media only screen and (max-width:390px){ 
+      .education{
+        height: 2120px;
+      }
+    }
+   
+
+    @media only screen and (max-width:360px){ 
       .main{
-        height: 1580px;
+        height: 980px;
         background-image: linear-gradient(to left, #ffffff 65%, #c2f6ef 35%);
-          }
+        }
         .about{
-          height:1650;
+          height:1140px;
         }
 
         .textside p{
@@ -302,11 +334,8 @@
          height: 205px;
          width: 205px;
      }
-
-
-
         .education{
-          height:2450px;
+          height:2050px;
         }
         
     .aboutInfo span{
@@ -323,16 +352,13 @@
        font-size: 13.5px;
       }
      
-    .education{
-        height:3400px;
-      }
 
       .skills{
-        height: 1500px;
+        height: 1300px;
     }
 
     .skills-content{
-      height: 1400px;
+      height: 1250px;
       background-image: linear-gradient(to right, #ffffff 65%, #c2f6ef 35%);
       flex-direction: column;
     }
@@ -343,51 +369,41 @@
   .skills .skills-content .right p{
     font-size: 14px;
 }
-  }
-
-
-    /* ----------------------------------------------------------- */
-
-    @media only screen and (max-width:360px){
-      .main{
-          height: 1600px;
-      }
-      .textside p{
-        text-align: left;
-      }
-      .aboutInfo span{
-        padding: 10px 0 10px 0;
-        font-size: 15px;
-      }
-      .aboutInfo .btnstyle{
-        margin: 0 3px;
-        padding: 3px 10px;
-      }
-      .skills .skills-content .left{
-        padding-top: 100px;
-      }
-      .skills{
-        height: 1600px;
-      }
-      .skills .skills-content{
-        height: 1500px;
-      }
-  }
-
-
+}
   /* ------------------------------------------------------- */
 
-  @media only screen and(max-width:340px){
+  @media only screen and (max-width:300px){
+
     .main{
-      height: 1710px;
+      height: 1280px;
+      background-image: linear-gradient(to left, #ffffff 65%, #c2f6ef 35%);
+      }
+      .about{
+        height:1400px;
+      }
+
+    .education{
+      height:2240px;
     }
     .skills{
-      height: 1800px;
+      height: 1300px;
     }
     .skills .skills-content{
-      height: 1700px;
+      height: 1200px;
     }
   }
+
+
+
+
+
+
+
+
+
+
+
+
 
   /* ----------------------------------------------------------- */
 
@@ -503,4 +519,3 @@
    }
   
   }
-  
